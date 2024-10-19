@@ -24,3 +24,4 @@ class MainPage:
     order_header_button = [By.CLASS_NAME, 'Button_Button__ra12g']
     order_button = [By.XPATH, '(//button[text()="Заказать"])[2]']
     yandex_logo = [By.XPATH, '//img[@alt="Yandex"]']
+    logo_dzen = [By.XPATH, '//*[@id="dzen-header"]/div[1]/a']
